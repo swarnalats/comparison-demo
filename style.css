@@ -1,0 +1,23 @@
+ul#vehicle-list {
+    margin:0;
+    padding:0;
+}
+
+ul#vehicle-list li{
+    display: inline-block;
+    margin: 5px 10px;
+    border: 2px solid blue ;
+    cursor: pointer;
+}
+
+ul#vehicle-list li:hover {
+    border: 3px solid red;
+}
+
+ul#vehicle-list li figure {
+    padding: 5px;
+}
+
+ul#vehicle-list li figure img {
+    height: 150px;
+} 
